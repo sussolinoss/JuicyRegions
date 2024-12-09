@@ -1,0 +1,25 @@
+prefix: "&e.&6.&f. &7->&f"
+
+invalid:
+  number: "%prefix% &cIl numero inserito non è valido."
+
+not:
+  exist: "%prefix% &cRegion doesn't exist."
+
+no:
+  positions: "%prefix% &cNo position setted."
+
+already:
+  exist: "%prefix% &cThis region already exist."
+
+command:
+  create: "%prefix% &aRegion successfully created!"
+  delete: "%prefix% &aRegion successfully deleted!"
+  redefine: "%prefix% &aRegion successfully redefined!"
+
+  flag:
+    set: "%prefix% &arg= &f&n%region%&7 -> &aflag= &f&n%flag%&7 -> &fvalue= &f&n%value%"
+    null: "%prefix% &cThis flag doesn't exist."
+
+  exempt: "%prefix% &aNow %player% is an exempt (rg= %region%, flag= %flag%)."
+  position: "%prefix% &aPosition (%type%) setted."

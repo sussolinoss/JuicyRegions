@@ -1,0 +1,38 @@
+##############################################
+#                                            #
+#                   SPAWN                    #
+#                                            #
+##############################################
+error:
+  general: "errorrrr"
+
+spawn:
+  enabled: true
+  messages:
+    error: "error"
+    set: "setted!"
+    teleport: "teleported!"
+    teleport-all: "done!"
+
+
+##############################################
+#                                            #
+#                   REGION                   #
+#                                            #
+##############################################
+
+
+region:
+  messages:
+    create: "Arena {arena} created!"
+    set-pos-1: "setted pos 1"
+    set-pos-2: "setted pos 2"
+  flags:
+    default:
+      build: false
+      break: false
+      pvp: false
+      no-fall: true
+      interaction: true
+      mob-spawning: false
+      move-on-water: false
